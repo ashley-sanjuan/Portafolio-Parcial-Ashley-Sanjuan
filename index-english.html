@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FONTS -->
+    <!-- Londrina -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <!-- Livvic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+
+    <title>Portafolio Ashley Sanjuan</title>
+</head>
+<body>
+    <header class="header">
+        <!-- izquierda -->
+        <a class="logo" href="#inicio">
+        <img class="logo__icon" src="recursos/iconos/ash_logo_svg.svg" alt="">
+        </a>
+        <!-- centro -->
+        <nav class="nav">
+            <a class="nav__link" href="#sobremi">About me</a>
+            <a class="nav__link" href="#ilustraciones">Illustrations</a>
+            <a class="nav__link" href="#retratos">Portraits</a>
+            <a class="nav__link nav__link--contactame" href="#contactame">Contact me</a>
+        </nav>
+        <!-- derecha -->
+        <div class="language">
+            <span class="es">Español</span>
+            <input class="check" checked type="checkbox"> 
+            <span class="en">English</span>
+        </div>
+    </header>
+    <main class="main">
+    <!-- inicio -->
+        <section id="inicio" class="inicio">
+            <div class="inicio__content">
+                <div class="inicio__info">
+                    <div class="inicio__title">
+                        <h2 class="title__text">Ash's</h2>
+                        <h2 class="title__text">Gallery</h2>
+                    </div>  
+                    <p class="inicio__subtitle">Illustrator</p>
+                </div>
+            </div>
+            <div class="photo__container">
+                <img class="inicio__img" src="recursos/imagenes/dibujo_iniciopng.png" alt="dibujo autoretrato">
+            </div>
+        </section>
+
+    <!-- sobre mi -->
+
+        <section id="sobremi" class="sobremi">
+            <div class="sobremi__content container">
+                <div class="sobremi__info">
+                    <h2 class="sobremi__title">Who am I?</h2>
+                    <p class="sobremi__paragraph">I'm Ashley, a Graphic Design student focused on illustration and animation. My strength is creating characters and portraits in animated and semi-realistic styles, either traditional or digital. I'd love to work on projects that include illustration to bring unique ideas to life.</p>
+                </div>
+                <figure class="sobremi__photo">
+                    <img class="sobremi__img" src="recursos/imagenes/mi_foto.jpg" alt="mi foto">
+                </figure>
+                <div class="sobremi__caracteristicas">
+                    <div class="sobremi__habilidades">
+                        <h2 class="habilidades__titulo">Skills</h2>
+                        <div class="habilidades__container">
+                            <div class="habilidad">
+                                <figure class="habilidad__icon">
+                                    <img class="icon__img" src="recursos/iconos/brush_icon.svg" alt="ilustracion icono">
+                                </figure>
+                                <p class="habilidad__text">Illustration</p>
+                            </div>↩
+                            <div class="habilidad">
+                                <figure class="habilidad__icon">
+                                    <img class="icon__img" src="recursos/iconos/portrait.svg" alt="retrato icono">
+                                </figure>
+                                <p class="habilidad__text">Portrait</p>
+                            </div>
+                            <div class="habilidad">
+                                <figure class="habilidad__icon">
+                                    <img class="icon__img" src="recursos/iconos/animacion_icon.svg" alt="animacion icono">
+                                </figure>
+                                <p class="habilidad__text">Animation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sobremi__softwares">
+                        <h2 class="softwares__titulo">Softwares</h2>
+                        <div class="softwares__container">
+                            <div class="software">
+                                <figure class="software__icon">
+                                    <img class="icon__img" src="recursos/iconos/illustrator.svg" alt="illustrator icono">
+                                </figure>
+                                <p class="software__text">illustrator</p>
+                            </div>
+                            <div class="software">
+                                <figure class="software__icon">
+                                    <img class="icon__img" src="recursos/iconos/krita.svg" alt="krita icono">
+                                </figure>
+                                <p class="software__text">Krita</p>
+                            </div>
+                            <div class="software">
+                                <figure class="software__icon">
+                                    <img class="icon__img" src="recursos/iconos/after_effects_icon.svg" alt="after effects icono">
+                                </figure>
+                                <p class="software__text">After effects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobremi__language">
+                    <p class="language__text">Native Spanish</p>
+                    <p class="language__text">English B2</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ilustraciones -->
+        <section id="ilustraciones" class="ilustraciones">
+            <div class="ilustraciones__content container">
+                <div class="content__top">
+                    <h2 class="content__title">Ilustrations</h2>
+                </div>
+                <div class="carousel">
+                    <a href="#popup__haruka" class="elemento">
+                        <img class="elemento__img"  src="recursos/imagenes/HARUKA.jpg" alt="">
+                    </a>
+                    <a href="#popup__ironman" class="elemento">
+                        <img class="elemento__img"  src="recursos/imagenes/iron_man.jpg" alt="">
+                    </a>
+                    <a href="#popup__colombia" class="elemento">
+                        <img class="elemento__img"  src="recursos/imagenes/colombia.jpg" alt="">
+                    </a>
+                    <a href="#popup__miautoretrato" class="elemento">
+                        <img class="elemento__img"  src="recursos/imagenes/autoretrato__mini.jpg" alt="">
+                    </a>
+                </div>
+                <a class="button__vermas" href="https://www.instagram.com/ash.jaeger_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">See more...</a>
+            </div>
+
+            <!-- pop up -->
+            <div id="popup__haruka" class="popup__haruka popup">
+                <div class="popup__content">
+                    <div class="close__button">
+                        <a class="popup__close" href="#ilustraciones">&times;</a>
+                    </div>
+                    <figure class="popup__picture">
+                        <img class="popup__picture--img" src="recursos/imagenes/HARUKA.jpg" alt="">
+                    </figure>
+                    <h2 class="popup__title">Original character</h2>
+                    <p class="popup__paragraph">Digital drawing of an original character, Haruka.</p>
+                </div>
+            </div>
+
+            <div id="popup__ironman" class="popup__ironman popup">
+                <div class="popup__content">
+                    <div class="close__button">
+                        <a class="popup__close" href="#ilustraciones">&times;</a>
+                    </div>
+                    <figure class="popup__picture">
+                        <img class="popup__picture--img" src="recursos/imagenes/iron_man.jpg" alt="">
+                    </figure>
+                    <h2 class="popup__title">Iron man</h2>
+                    <p class="popup__paragraph">Traditional semi-realistic drawing with Prismacolor Premier colors.</p>
+                </div>
+            </div>
+
+            <div id="popup__colombia" class="popup__colombia popup">
+                <div class="popup__content">
+                    <div class="close__button">
+                        <a class="popup__close" href="#ilustraciones">&times;</a>
+                    </div>
+                    <figure class="popup__picture">
+                        <img class="popup__picture--img" src="recursos/imagenes/colombia.jpg" alt="">
+                    </figure>
+                    <h2 class="popup__title">Colombian team</h2>
+                    <p class="popup__paragraph">Digital drawing expressing the support of Colombians.</p>
+                </div>
+            </div>
+
+            <div id="popup__miautoretrato" class="popup__miautoretrato popup">
+                <div class="popup__content popup__content--big">
+                    <div class="close__button">
+                        <a class="popup__close" href="#ilustraciones">&times;</a>
+                    </div>
+                    <figure class="popup__picture">
+                        <img class="popup__picture--img" src="recursos/imagenes/autoretrato_grande.jpg" alt="">
+                    </figure>
+                    <h2 class="popup__title">My portrait</h2>
+                    <p class="popup__paragraph">Digital drawing of an animated portrait of myself.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Retratos -->
+        <section id="retratos" class="retratos">
+            <div class="retratos__content container">
+                <div class="content__top">
+                    <h2 class="content__title">Portraits</h2>
+                </div>
+                <div class="carousel">
+                    <a href="#popup__retrato1" class="elemento">
+                        <img class="elemento__img"  src="recursos/imagenes/retrato_1.jpg" alt="">
+                    </a>
+                    
+                    <a href="#popup__retratofamiliar" class="elemento">
+                        <img class="elemento__img"  src="recursos/imagenes/retrato_familiar_mini.jpg" alt="">
+                    </a>
+                    <a href="#popup__retrato2" class="elemento">
+                        <img class="elemento__img"  src="recursos/imagenes/retrato_2.jpg" alt="">
+                    </a>
+                    <a href="#popup__billie" class="elemento">
+                        <img class="elemento__img"  src="recursos/imagenes/billie.jpg" alt="">
+                    </a>
+                </div>
+                <a class="button__vermas" href="https://www.instagram.com/ash.jaeger_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">See more...</a>
+            </div>
+        </section>
+
+        <!-- pop up -->
+        <div id="popup__retrato1" class="popup__retrato1 popup">
+            <div class="popup__content">
+                <div class="close__button">
+                    <a class="popup__close" href="#retratos">&times;</a>
+                </div>
+                <figure class="popup__picture">
+                    <img class="popup__picture--img" src="recursos/imagenes/retrato_1.jpg" alt="">
+                </figure>
+                <h2 class="popup__title">Portratit</h2>
+                <p class="popup__paragraph">Traditional drawing of a semi-realistic portrait.</p>
+            </div>
+        </div>
+
+        <div id="popup__retratofamiliar" class="popup__retratofamiliar popup">
+            <div class="popup__content popup__content--big">
+                <div class="close__button">
+                    <a class="popup__close" href="#retratos">&times;</a>
+                </div>
+                <figure class="popup__picture">
+                    <img class="popup__picture--img" src="recursos/imagenes/retrato_familiar.jpg" alt="">
+                </figure>
+                <h2 class="popup__title">Portrait of 3 people</h2>
+                <p class="popup__paragraph">Traditional drawing of a semi-realistic portrait of 3 people.</p>
+            </div>
+        </div>
+
+        <div id="popup__retrato2" class="popup__retrato2 popup">
+            <div class="popup__content">
+                <div class="close__button">
+                    <a class="popup__close" href="#retratos">&times;</a>
+                </div>
+                <figure class="popup__picture">
+                    <img class="popup__picture--img" src="recursos/imagenes/retrato_2.jpg" alt="">
+                </figure>
+                <h2 class="popup__title">Portrait</h2>
+                <p class="popup__paragraph">Traditional drawing of a semi-realistic portrait.</p>
+            </div>
+        </div>
+
+        <div id="popup__billie" class="popup__billie popup">
+            <div class="popup__content">
+                <div class="close__button">
+                    <a class="popup__close" href="#retratos">&times;</a>
+                </div>
+                <figure class="popup__picture">
+                    <img class="popup__picture--img" src="recursos/imagenes/billie.jpg" alt="">
+                </figure>
+                <h2 class="popup__title">Billie Eillish portrait</h2>
+                <p class="popup__paragraph">Traditional drawing of a semi-realistic portrait of Billie Eilish.</p>
+            </div>
+        </div>
+
+        <!-- formulario de contacto -->
+        <section id="contactame" class="contactame">
+            <div class="contactame__main">
+                <div class="main__top">
+                    <div class="main__title">
+                        <h2 class="titulo__contactame">Contact me</h2>
+                    </div>
+                    <div class="main__text">
+                        <p class="texto__contactame">To place an order, a commission or ask me something. Let's talk :)</p>
+                    </div>
+                </div>
+                <div class="main__formulario">
+                    <!-- Contenedor general del formulario -->
+                    <div class="formulario__contenedor">
+                        <!-- Primer contenedor: Nombre y Apellido -->
+                        <div class="formulario__fila">
+                            <input type="text" class="campo__input" placeholder="Name">
+                            <input type="text" class="campo__input" placeholder="Last name">
+                        </div>
+                    
+                        <!-- Segundo contenedor: Correo y Mensaje -->
+                        <div class="formulario__columna">
+                            <input type="email" class="campo__input largo" placeholder="E-mail">
+                            <textarea class="campo__input grande campo__textarea" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    
+                    <!-- Botón de enviar -->
+                    <div class="formulario__bottom">
+                        <button type="submit" class="boton__enviar">Send</button>
+                    </div>
+                </div>
+                <!-- bottom, redes sociales -->
+                <div class="main__bottom">
+                    <div class="bottom__link">
+                        <figure class="link__left">
+                            <img class="link__icon" src="recursos/iconos/instagram.svg" alt="">
+                        </figure>
+                        <div class="link__right">
+                            <a class="link__text" href="https://www.instagram.com/ash.jaeger_art?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" target="_blank">@ash.jaeger_art</a>
+                        </div>
+                    </div>
+                    <div class="bottom__link">
+                        <figure class="link__left">
+                            <img class="link__icon" src="recursos/iconos/twitter.svg" alt="">
+                        </figure>
+                        <div class="link__right">
+                            <a class="link__text" href="https://x.com/Ashjaeger_art?t=L1QAcfdSLQfPSjb81vcSCw&s=09" target="_blank">@ash.jaeger_art</a>
+                        </div>
+                    </div>
+                    <div class="bottom__link">
+                        <figure class="link__left">
+                            <img class="link__icon" src="recursos/iconos/gmail.svg" alt="">
+                        </figure>
+                        <div class="link__right">
+                            <a class="link__text" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKhbsKhqTmFCcCXrQcwvKBvpLVJrgqXmTkKzvtjXBVnfhWlRpGMhvZzkQrkFJMxSKJhQwQf" target="_blank" >ashjaeger.business@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+    <script src="../js/app.js"></script>
+</body>
+</html>
